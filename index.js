@@ -4,3 +4,5 @@ const fetchHandler = async () => {
   const { message } = await res.json();
   document.querySelector("img").src = message;
 };
+
+console.log("hi");
